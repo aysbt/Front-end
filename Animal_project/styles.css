@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+body {
+  width: 325px;
+}
+img {
+  width: 300px;
+  border: solid 2px white;
+}
+span{
+  display: inline-block;
+  width: 55px;
+}
+.pokecard {
+  padding: 10px;
+  border: solid 2px white;
+  background: linear-gradient(
+    to bottom right,
+    darkgoldenrod,
+    orange,
+    yellow,
+    gold,
+    lemonchiffon
+  );
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.Label {
+  font-weight: bold;
+}
+
+.pokemon {
+  width: 300px;
+  border: solid gold;
+  padding: 10px;
+  font-family: Anton;
+  text-align: justify;
+  font-size: 18px;
+  background: linear-gradient(
+    to bottom right,
+    yellow,
+    gold,
+    lemonchiffon,
+    orange
+  );
+}
+.header {
+  width: 300px;
+  font-family: Anton;
+  background: linear-gradient(to bottom right, lemonchiffon, orange, yellow);
+
+  border: solid 1px gold;
+  margin: 0px 0px 10px 0px;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+}
+
