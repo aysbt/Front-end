@@ -1,0 +1,14 @@
+
+@@media screen and (min-width: 360px){
+
+  .name{
+  font-size: 25px;
+  margin:auto ;
+  text-align:right;
+  }
+  .junior{
+    font-size: 10px;
+    margin: auto;
+    text-align:right;
+  }
+}

@@ -2,17 +2,21 @@
   box-sizing: border-box;
   font-size: 14px;
 }
+
 body {
   width: 325px;
 }
+
 img {
   width: 300px;
   border: solid 2px white;
 }
+
 span{
   display: inline-block;
   width: 55px;
 }
+
 .pokecard {
   padding: 10px;
   border: solid 2px white;
@@ -28,9 +32,10 @@ span{
 
 ul {
   list-style-type: none;
-  padding-left: 0px;
+  padding-left: 0;
 }
-.Label {
+
+.label {
   font-weight: bold;
 }
 
@@ -49,15 +54,14 @@ ul {
     orange
   );
 }
+
 .header {
   width: 300px;
   font-family: Anton;
   background: linear-gradient(to bottom right, lemonchiffon, orange, yellow);
-
   border: solid 1px gold;
-  margin: 0px 0px 10px 0px;
+  margin: 0 0 10px 0;
   border-radius: 4px;
   font-size: 20px;
   text-align: center;
 }
-
